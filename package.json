@@ -1,0 +1,17 @@
+{
+  "name": "nodejsupload",
+  "version": "1.0.0",
+  "description": "a nodejs app to upload files with multer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olunloye Akinkunmi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-fileupload": "*",
+    "body-parser": "*",
+    "mongoose": "*"
+  }
+}

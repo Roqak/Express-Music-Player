@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>lists</title>
+        <style>
+            ul li{
+                width: 100% !important;
+                list-style-type: none;
+                border: 5px border-style black;
+            }
+            #content{
+                position: center;
+                width: 70%;
+                margin-top: 55px;
+            }
+            audio{
+                width: 90%;
+            }
+            #artist{
+                float: left;
+                border: 5px border-style blue;
+                margin-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1 id="head">Sample Express CRUD with ejs</h1></center><a href="/addmusic">Add Music</a>
+        <center>
+        <div id="content">
+        <ul>
+            <% for(var i = 0; i < musicname.length; i++){ %>
+            <li>
+                <span><h3><%= musicname[i].name %></h3> </span>
+                <audio src="/images/<%= musicname[i].name %>" controls>
+            </audio><br><span id="artist"><%= musicname[i].artist %></span>
+             <span><a href="/delete/<%= musicname[i]._id %>">Delete</a></span>
+            
+        </li>
+        <% } %>
+        </ul>
+        </div>
+    </center>
+        <script>
+            
+        </script>
+    </body>
+</html>
