@@ -1,16 +1,12 @@
-# Node.js server to upload Images
+# Express-Music-App
 
 ## To run the project
 
 1.Switch to __node-upload-image__ directory,
 ```
-cd node-upload-image
+cd Express-Music-App
 ```
-2.Create __images__ directory
-```
-mkdir images
-```
-3.Download dependencies
+2.Download dependencies
 ```
 npm install
 ```
