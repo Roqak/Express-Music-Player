@@ -1,8 +1,8 @@
-# Express-Music-App
+# Express-Music-Player
 
 ## To run the project
 
-1.Switch to __node-upload-image__ directory,
+1.Switch to __Express-Music-Player__ directory,
 ```
 cd Express-Music-App
 ```
